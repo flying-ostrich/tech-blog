@@ -1,4 +1,4 @@
-const base = 'tech-blog';
+const base = '/tech-blog';
 
 module.exports = {
     title: "flying-ostrich",
