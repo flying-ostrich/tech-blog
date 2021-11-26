@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy-pages": "vuepress build docs && push-dir --dir=docs/.vuepress/dist --branch=pages"
+    "deploy-pages": "git add . && git commit -m \"update doc\" &&  vuepress build docs && push-dir --dir=docs/.vuepress/dist --branch=pages"
   },
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
