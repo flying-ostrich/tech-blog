@@ -28,5 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run docs:build
-    - run: git add . && git commit
     - run: npm run deploy-pages
