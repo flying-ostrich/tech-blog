@@ -12,7 +12,7 @@ fsddsfdss
 
 Sdfdsfdsfdsdsf
 
-![image-20211126100448580](./README.assets/image-20211126100448580.png)
+![image-20211126100448580](README.assets/image-20211126100448580.png)
 
 sdfsdfdsdfssdfdsfsdfsdfsd
 
