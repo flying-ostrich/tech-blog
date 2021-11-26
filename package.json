@@ -5,10 +5,12 @@
   "repository": "git@github.com:flying-ostrich/tech-blog.git",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy-pages": "push-dir --dir=docs/.vuepress/dist --branch=pages"
   },
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
+    "push-dir": "^0.4.1",
     "vuepress": "^1.8.2"
   }
 }
