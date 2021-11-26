@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy-pages": "push-dir --dir=docs/.vuepress/dist --branch=pages --allow-unclean"
+    "deploy-pages": "push-dir --dir=docs/.vuepress/dist --branch=pages --force --verbose"
   },
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
